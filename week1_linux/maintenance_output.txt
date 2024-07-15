@@ -1,0 +1,48 @@
+---- System Update ----
+Hit:1 http://ports.ubuntu.com/ubuntu-ports noble InRelease
+Hit:2 http://ports.ubuntu.com/ubuntu-ports noble-updates InRelease
+Hit:3 http://ports.ubuntu.com/ubuntu-ports noble-backports InRelease
+Hit:4 http://ports.ubuntu.com/ubuntu-ports noble-security InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+---- Package Cleanup ----
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+
+---- Disk Usage ----
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              196M  1.5M  195M   1% /run
+efivarfs                           104K  5.2K   99K   5% /sys/firmware/efi/efivars
+/dev/mapper/ubuntu--vg-ubuntu--lv   30G  5.6G   23G  20% /
+tmpfs                              979M     0  979M   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          2.0G  190M  1.6G  11% /boot
+/dev/sda1                          1.1G  6.4M  1.1G   1% /boot/efi
+iCloud                             927G  308G  619G  34% /media/psf/iCloud
+tmpfs                              196M   20K  196M   1% /run/user/1000
+
+---- Active Users ----
+pc       tty1         2024-07-10 21:14
+pc       pts/0        2024-07-14 19:55 (10.211.55.2)
+pc       pts/1        2024-07-14 20:56 (10.211.55.2)
+
+---- Top 5 CPU Consuming Processes ----
+    PID    PPID CMD                         %MEM %CPU
+   1233    1151 containerd --config /run/sn  1.9  0.8
+  23453   23396 sshd: pc@pts/0               0.3  0.0
+    861       1 /usr/bin/prltoolsd -p /var/  0.0  0.0
+   1151       1 dockerd --group docker --ex  3.3  0.0
+  18571       1 /sbin/multipathd -d -s       1.3  0.0
