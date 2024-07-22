@@ -59,10 +59,10 @@ Al chequear el directorio si esta /build
 
 **Dar permisos par aque NGINX use el proyecto:**
 
-sudo chown -R www-data:www-data /home/pc/react-demo/build
-sudo chmod -R 755 /home/pc/react-demo/build
-sudo chmod 755 /home/pc
-sudo systemctl restart nginx
+        sudo chown -R www-data:www-data /home/pc/react-demo/build
+        sudo chmod -R 755 /home/pc/react-demo/build
+        sudo chmod 755 /home/pc
+        sudo systemctl restart nginx
 
 ### Activar el Sitio y Reiniciar Nginx:
     sudo ln -s /etc/nginx/sites-available/react-demo /etc/nginx/sites-enabled/ 
